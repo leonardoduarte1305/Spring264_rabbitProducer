@@ -49,6 +49,7 @@ public class ProducerRabbitConfiguration {
 				.with(queue);
 	}
 
+	@Bean
 	public Binding bindingDeadLetter() {
 		return BindingBuilder //
 				.bind(deadLetter()) //

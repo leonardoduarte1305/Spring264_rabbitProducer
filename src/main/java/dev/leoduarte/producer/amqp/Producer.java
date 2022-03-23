@@ -1,4 +1,4 @@
-package dev.leoduarte.producer.amqp.implementation;
+package dev.leoduarte.producer.amqp;
 
 import org.springframework.amqp.AmqpRejectAndDontRequeueException;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
